@@ -1,0 +1,56 @@
+From 41d75e95d70c3dc5dd8a0bd162f71c90c123d949 Mon Sep 17 00:00:00 2001
+From: Boyer <BOYER-06373@cnamts.local>
+Date: Tue, 23 Jun 2020 09:51:23 +0200
+Subject: [PATCH] exo
+
+---
+ .gitignore    |  0
+ README.md     |  3 ++-
+ hotfix.patch  | 16 ++++++++++++++++
+ logs/.gitkeep |  0
+ 4 files changed, 18 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 hotfix.patch
+ create mode 100644 logs/.gitkeep
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..e69de29
+diff --git a/README.md b/README.md
+index 780dd1c..b13ff47 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+-# m2i-jour2
+\ No newline at end of file
++# m2i-jour2
++modif
+\ No newline at end of file
+diff --git a/hotfix.patch b/hotfix.patch
+new file mode 100644
+index 0000000..c4ee6c0
+--- /dev/null
++++ b/hotfix.patch
+@@ -0,0 +1,16 @@
++diff --git a/.gitignore b/.gitignore
++new file mode 100644
++index 0000000..e69de29
++diff --git a/README.md b/README.md
++index 780dd1c..b13ff47 100644
++--- a/README.md
+++++ b/README.md
++@@ -1 +1,2 @@
++-# m2i-jour2
++\ No newline at end of file
+++# m2i-jour2
+++modif
++\ No newline at end of file
++diff --git a/logs/.gitkeep b/logs/.gitkeep
++new file mode 100644
++index 0000000..e69de29
+diff --git a/logs/.gitkeep b/logs/.gitkeep
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.25.1.windows.1
+
