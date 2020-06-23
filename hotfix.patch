@@ -1,0 +1,16 @@
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..e69de29
+diff --git a/README.md b/README.md
+index 780dd1c..b13ff47 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+-# m2i-jour2
+\ No newline at end of file
++# m2i-jour2
++modif
+\ No newline at end of file
+diff --git a/logs/.gitkeep b/logs/.gitkeep
+new file mode 100644
+index 0000000..e69de29
